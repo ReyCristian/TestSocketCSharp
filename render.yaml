@@ -1,0 +1,8 @@
+services:
+  - type: background
+    name: test-server-csharp
+    runtime: dotnet
+    repo: https://github.com/ReyCristian/TestSocketCSharp
+    branch: main
+    buildCommand: dotnet build -c Release
+    startCommand: dotnet ./bin/Release/net8.0/TestSocket.dll --server

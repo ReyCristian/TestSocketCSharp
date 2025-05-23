@@ -1,0 +1,34 @@
+# Archivos de compilación
+bin/
+obj/
+out/
+
+# Archivos de usuario de VS
+.vscode/
+*.user
+*.suo
+
+# Configuración local de VS
+*.userosscache
+*.sln.docstates
+
+# Archivos de paquetes y dependencias
+packages/
+*.nupkg
+*.snupkg
+
+# Archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Configuración global de Replit
+.replit
+*.replit
+
+# Archivos ocultos de sistema
+Thumbs.db
+.DS_Store
+
+# Archivos de publicación
+publish/
